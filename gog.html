@@ -1,0 +1,67 @@
+<!Doctype html>
+<html>
+<head>
+<title>gogetter's gas</title>
+<h1><img src="gsb.webp" class="gs" width=60px; height=60px;> Go-getter's Gas limited</h1>
+
+<meta name="viewport" content="width-device-width, initial-scale=1">
+ <link rel="stylesheet" href="sty.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script>
+function validate(){
+var x = document.forms["wale"]["un"].value;
+var y = document.forms["wale"]["pw"].value;
+if(x=="student" && y=="1234"){
+alert("invalid");
+}
+else{
+window.location.href="new.html";
+}
+}
+
+</script>
+
+</head
+<body>
+<div class="navbar">
+ <a  class="active" href="#"><i class="fa fa-home fa-fw"></i>Home</a>
+ <a href="new.html"><i class="fa fa-book fa-fw"></i>Contact</a>
+ <a href="n.html"><i class="fa fa-fw fa-male"></i>Agent</a>
+ <a href="n.html"><i class="fa fa-fw fa-search"></i>Search</a>
+ <a href="wale.html"><i class="fa fa-user-o fa-fw"></i>About</a>
+ </div>
+ 
+
+ 
+  <h2>Login with your Go-getter's account</h2> 
+
+
+
+
+<form action="new.html" name="wale" method="post">
+<div class="img">
+<img src="wa.png" class="wa"  width="150px" height="150px">
+</div>
+<br/><br/>
+<div class="x">
+<label><b>Username:</b></label>
+<input type="text" name="un" class="un"   placeholder="input password"  required maxlength="10" size="15"  >
+<br/><br/>
+<label><b>Password:</b></label>
+<input type="password"  name="pw" class="pw" placeholder="input password" required maxlength="10" size="15">
+<br/> <br/>
+<button type="submit" class="lg" style="cursor:pointer" onclick="validate()">Login</button><br/>
+<label><input type="checkbox" checked="checked" name="remeber">Remember me</label>
+<br/><br/>
+<div class="x">
+<button type="button" class="cb" style="cursor:pointer">Cancel</button>
+<br/><br/>
+<span class="pw"><a href="n.html" style="cursor:pointer">Forgot Password</a></span>
+
+</div>
+</form>
+ 
+
+</body>
+
+</html>
